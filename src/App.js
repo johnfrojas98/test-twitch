@@ -1,10 +1,12 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './styles/App.css';
+import Contains from './components/Contains';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Holaaaaa</h1>
+      <Header />
+      <Contains/>
     </div>
   );
 }

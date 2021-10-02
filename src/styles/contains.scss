@@ -1,0 +1,29 @@
+.container_search {
+    width: 100%;
+    margin: 20px;
+    .container_input {
+        width: 50%;
+        height: 30px;
+        padding: 0 46px 0 10px;
+        -webkit-box-sizing: content-box;
+        -webkit-appearance: none;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        border: {
+            color: #888;
+            radius: 10px;
+            style: solid;
+            width: 2px;
+        }
+        color: #333;
+        font: {
+            family: 'Helvetica', sans-serif;
+            size: 18px;
+        }
+        -moz-appearance: none;
+    }
+}
+
+.container_card {
+    margin: 0 0 10px 0;
+}
